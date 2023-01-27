@@ -28,6 +28,7 @@ hr {
   border: 1px dashed #dcdde1;
 }
 
+/* Used for shorter hr */
 .short {
   border: 1px solid #dcdde1;
   width: 70%;
@@ -75,6 +76,7 @@ header > h1 {
   position: relative;
 }
 
+/* Create an "overlay" element to show inset shadow over images */
 #head-img::after {
   box-shadow: 0 0 3vw 3vw #2f3640 inset;
   position: absolute;
